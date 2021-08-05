@@ -1,0 +1,28 @@
+.QuoteContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.QuoteText {
+    margin: 0;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.QuoteAuthor {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #969e9e;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .QuoteText {
+        font-size: 1.2rem;
+    }
+    .QuoteAuthor {
+        font-size: 1rem;
+    }
+}

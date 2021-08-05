@@ -1,0 +1,12 @@
+.clock {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .clock {
+        font-size: 5rem;
+    }
+}

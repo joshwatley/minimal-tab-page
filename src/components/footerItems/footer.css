@@ -1,0 +1,26 @@
+.FooterContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+}
+
+.FooterContainer>a {
+    color: #969E9E;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+.FooterContainer>a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .FooterContainer {
+        padding: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+        justify-content: center;
+    }
+}
