@@ -1,5 +1,6 @@
 .FooterContainer {
     display: flex;
+    width: 100%;
     flex-direction: row;
     padding-bottom: 4rem;
     padding-left: 4rem;
@@ -18,9 +19,14 @@
 
 @media screen and (max-width: 500px) {
     .FooterContainer {
+        margin-left: -0.5rem;
         padding: 0;
         margin-bottom: 2rem;
         width: 100%;
-        justify-content: center;
+        /* justify-content: center; */
+    }
+    .FooterContainer>a {
+        font-size: 1rem;
+        padding: 1rem;
     }
 }
